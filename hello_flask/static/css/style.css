@@ -1,0 +1,70 @@
+.surveybox{
+    background-color: #454141;
+    height: 600px;
+    width: 360px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.dojosurvey{
+    color: #f9e400;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.header{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.namebox{
+    height: 25px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.selectbox{
+    height: 25px;
+    width: 310px;
+    margin-bottom: 10px;
+    padding-left: 90px;
+}
+
+.commentbox{
+    padding-bottom: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.submitbutton{
+    background-color: #f9e400;
+    font-size: 20px;
+    border-style: none;
+}
+
+/* the result html form*/
+
+.resultbox{
+    background-color: #454141;
+    height: 600px;
+    width: 360px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.submittedheader{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.subinfo{
+    color: white;
+    margin-left: 20px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div class="resultbox">
+        <p class="submittedheader"> Submitted Information </p>
+        <p class="subinfo">Name: {{ session['name'] }}</p>
+        <p class="subinfo">Dojo Location: {{ session['state_select'] }}</p>
+        <p class="subinfo">Favorite Language: {{ session['lang_select'] }}</p>
+        <p class="subinfo">Comments: {{ session['commenting'] }}</p>
+    </div>
+    
+</body>
+</html>
